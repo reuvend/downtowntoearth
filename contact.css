@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@200&display=swap');
+* { 
+	margin: 0px;
+	padding: 0px;
+}
+
+#rectangle {
+	width: 1800px;
+	height: 29px;
+	background:#77E530;
+}
+
+header{ 
+			margin-left:200px;
+			margin-right:200px;
+			font-family: 'Source Sans 3', sans-serif;
+			overflow: hidden;
+			display: flex;
+}
+h1 {
+		font-family: 'Bebas Neue', sans-serif;
+		font-size: 50px;
+	}
+h2 {
+		font-family: 'Bebas Neue', sans-serif;
+		font-size: 35px;
+}
+h2 em {
+		font-style:normal;
+		color: #77E530;
+}
+h3 {
+		font-family: 'Bebas Neue', sans-serif;
+		font-size: 25px
+}
+
+p { 
+		font-family: 'Source Sans 3', sans-serif;	
+		font-size:16px;
+}
+
+.headerlogo {
+	flex: 1;
+}
+.headernav {
+	flex: 1;
+	overflow: hidden;
+}
+header nav a{
+	text-decoration: none;
+	color: black;
+}
+nav a:hover{
+	color:#77E530;
+}
+
+.navbutton {
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 60px;
+}
+.contactbutton {
+	color:#77E530;
+}
+
+.body1 {
+	margin-left:250px;
+	margin-right:250px;
+	padding-top: 30px;
+	display:flex;
+}
+.para1 {
+	flex:1;
+	text-align:left;
+	padding-right:800px;
+}
+.form{
+	flex:1;
+	text-align:right;
+	padding-left: 400px;
+}
+
+#memberimages {
+	display:flex;
+	margin-left:200px;
+	margin-right:200px;
+	text-align: center;
+	padding-top:50px;
+}
+.member1 {
+	flex: 1;
+}
+.member2 {
+	flex: 1;
+}
+.member3 {
+	flex: 1;
+}
+
+#memberlabels {
+	display:flex;
+	margin-left:200px;
+	margin-right:200px;
+	text-align: center;
+	padding-bottom:20px;
+}
+.founder {
+	flex:1;
+}
+.cofounder {
+	flex:1;
+}
+.treasurer {
+	flex:1;
+}
+
+.rule {
+	margin-left:200px;
+	margin-right:200px;
+	padding-bottom: 20px;
+}
+footer {
+	font-family: 'Source Sans 3', sans-serif;
+	display: flex;
+	padding-bottom:20px;
+}
+.footerleft{
+	flex:1;
+	margin-left:280px;
+}
+.footericon{
+	margin-left:65px;
+}
+.footermiddle{
+	flex:1;
+	text-align:right;
+}
+.footerright{
+	flex:1;
+	text-align:right;
+	margin-right:200px;
+}
+
+footer nav a{
+	text-decoration: none;
+	color: black;
